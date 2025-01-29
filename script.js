@@ -1,19 +1,52 @@
-const slides = document.querySelector('.slides');
-const prev = document.getElementById('prev');
-const next = document.getElementById('next');
-const slideCount = document.querySelectorAll('.slide').length;
-let currentIndex = 0;
+let values = document.querySelectorAll(".value"); // Use querySelectorAll for multiple elements
 
-function updateSlidePosition() {
-  slides.style.transform = `translateX(-${currentIndex * 100}%)`;
-}
+values.forEach((singlevalue) => {
+    let startValue = 0; // Fixed typo from startVlue to startValue
+    let endValue = parseInt(singlevalue.getAttribute("data-value"));
+    let duration = Math.floor(5.2 / endValue);
 
-prev.addEventListener('click', () => {
-  currentIndex = (currentIndex > 0) ? currentIndex - 1 : slideCount - 1;
-  updateSlidePosition();
+    let counter = setInterval(function () {
+        startValue += 1; // Fixed typo from startVlue to startValue
+        singlevalue.textContent = startValue;
+
+        if (startValue == endValue) {
+            clearInterval(counter);
+        }
+    }, duration);
 });
 
-next.addEventListener('click', () => {
-  currentIndex = (currentIndex < slideCount - 1) ? currentIndex + 1 : 0;
-  updateSlidePosition();
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let values = document.querySelector(".value");
+
+// values.forEach((singelevalue) => {
+//     let startVlue = 0;
+//     let endValue = parseInt(singelevalue.getAttribute("data-value"));
+//     let  duration = Math.floor(5000 / endValue);
+
+
+// let counter = setInterval(function (){
+//     startVlue += 1;
+//     singelevalue.textContent = startVlue;
+
+//     if (startVlue == endValue){
+//         clearInterval(counter)
+//     };
+// }, duration)
+// });
+
+
+
+

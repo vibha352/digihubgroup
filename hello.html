@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Section</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .card-section {
+      display: flex;
+      background: rgb(240, 227, 252);
+      height: 800px;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      gap: 20px;
+      max-width: 100%;
+      margin: 20px;
+    }
+
+    /* Card Styles */
+    .card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+      padding: 30px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .card-icon {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .card-icon-two {
+      height: 90px;
+      width: 90px;
+      background: white;
+      border-radius: 50%;
+    }
+
+    .card-icon-two i {
+      color: #b22cf0;
+      font-size: 2rem;
+      margin-top: 1.6rem;
+      margin-left: 1.7rem;
+    }
+
+    .card:hover .card-icon-two {
+      background: white;
+    }
+
+    .card:hover .card-icon i {
+      color: white;
+    }
+
+    .card:hover .card-title,
+    .card:hover .card-description {
+      color: white;
+    }
+
+    /* Hover effect colors for each card */
+    .card-one:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #f073a3, #fc4e6c);
+    }
+
+    .card-two:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #f0bc52, #f3a51b);
+    }
+
+    .card-three:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #5c92f4, #396bde);
+    }
+
+    .card-four:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #45d46b, #2b9f3e);
+    }
+
+    .card-five:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #f0a2b8, #d03a77);
+    }
+
+    .card-six:hover {
+      transform: translateY(-10px);
+      background: linear-gradient(90deg, #e6a0ff, #9b64f7);
+    }
+  </style>
+</head>
+<body>
+
+  <section class="card-section">
+    <div class="container">
+      <!-- Card 1 -->
+      <div class="card card-one">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">Web Development</h3>
+          <p class="card-description">
+            Your website is the digital face of your business. With our expert website development services, we ensure that your platform is equipped with a modern design, intuitive UI/UX, and seamless functionality.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card card-two">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">SEO (Search Engine Optimization)</h3>
+          <p class="card-description">
+            Get found by your audience! Our SEO strategies focus on improving your website's visibility on search engines and driving organic traffic that converts.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card card-three">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">Social Media Ads</h3>
+          <p class="card-description">
+            Amplify your brand's voice with strategic social media advertising. We create engaging campaigns that connect you with your audience and boost your online presence.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card card-four">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">Graphic Designing</h3>
+          <p class="card-description">
+            Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card card-five">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">Graphic Designing</h3>
+          <p class="card-description">
+            Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card card-six">
+        <div class="card-content">
+          <div class="card-icon">
+            <div class="card-icon-two">
+              <i class='bx bxs-color'></i>
+            </div>
+          </div>
+          <h3 class="card-title">Graphic Designing</h3>
+          <p class="card-description">
+            Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

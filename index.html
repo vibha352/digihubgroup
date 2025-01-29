@@ -3,447 +3,536 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar with Logo</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <!-- box icon cdn -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <!-- animati -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+ 
 </head>
-<body>
-    <header class="header">
-        <nav>
-         <a href="#"><img src="img/logo-300x118.png" alt="" class="logo"></a>
-         <ul>
-            <li> <a href="">Home </a></li>
-            <li> <a href="about.html"> About </a></li>
-           <li class="dropdown">
-          <a href="" class="dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Service</a>
-           <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+<body class="sticky-top">
+ <header class="header">
+   <nav>
+    <a href="#"><img src="logo-black.webp" alt=""></a>
+    <ul>
+       <li class="dropdown">
+        <a href="" class="dropdown-toggle" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Home    </a>
+             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li><a class="dropdown-item" href="#">Action</a></li>
-         <li><a class="dropdown-item" href="#">Another action</a></li>
-          <li><a class="dropdown-item" href="#">Something else here</a></li>
-         </ul>    
-          </li>
-          <li> <a href=""> Contact </a></li>
-            <button class="nav-btn">CLICK HERE  <i class='bx bx-right-arrow-alt'></i></button>
-            </ul>
-     
-         <div class="ser-icon">
-             <i class='bx bx-search'></i>
-         </div>
-        
-     
-        
-         </nav>
-  <h1 class="main-heading">Website designing and development</h1>
-</header>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+             </ul>    
+        </li>
+        <li class="dropdown">
+            <a href="" class="dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Service    </a>
+                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                 </ul>    
+            </li>
+            <li class="dropdown">
+                <a href="" class="dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Blog  </a>
+                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     </ul>    
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Pages    </a>
+                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                         </ul>    
+                    </li>
+                 
+      
+       <li> <a href=""> Contact </a></li>
+       <button class="nav-btn">DISCOVER MORE   <i class='bx bx-right-arrow-alt'></i></button>
+       </ul>
 
-
-
-<section class="main-section">
-
-<div class="container-one">
-    <div class="column-one">
-        <img src="img/1_JeM-x4dxbQXUPcelFlaCRw-removebg-preview.png" alt="">
+    <div class="ser-icon">
+       <i class='bx bxs-shopping-bag'></i>
+       <span class="box-o">0</span>
+        <i class='bx bx-search'></i>
     </div>
+   
 
-    <div class="column-two">
-        <p class="first-line"><i class='bx bxl-flutter'></i> Web design agency</p>
-        <h1>We Build Stunning Websites That Demand Attention</h1>
+   
+    </nav>
 
-        <p class="paragrap">Simply put, what we do is build visually stunning websites that enthrall users and make an impact. We create aesthetically attractive, high-performing websites that enhance your brand and increase interaction by fusing gorgeous design with flawless functionality. Allow us to turn your idea into a distinctive digital experience.</p>
+<div class="container">
+    <div class="first-row">
 
-        <span class="check-box"><i class='bx bx-check-circle'></i> Pixel Perfect</span> <br>
-        <span class="check-box"><i class='bx bx-check-circle'></i> WordPress, Shopify, HubSpot & More</span> <br>
-        <span class="check-box"><i class='bx bx-check-circle'></i> Custom Design With Figma</span> <br>
-        <span class="check-box"><i class='bx bx-check-circle'></i> Ultra-Fast Expedited Service Available</span>
-        <br>
-
-        <button class="get-btn">Get A Quote  <i class='bx bx-play-circle'></i></button>
-
+        <div class="text-container">
+      <span class="text">welcome to agency</span>  </div>
+      <h1 data-aos="fade-left" data-aos-duration="1500">
+        <span>We are Creative</span><br>
+        <span>Digital</span>
+        <span class="marketing">Marketing</span><br>
+        <span>agency</span>
+    </h1>
+    <p>
+        We are 100+ professional software engineers with more than 10 years of experience in delivering superior products Believe it because you've seen it. Here are real numbers
+    </p>
+  <div class="div-btn">
+        <button class="hred-btn">DISCOVER  MORE  <i class='bx bx-right-arrow-alt'></i></button>
+        <a href="#"><i class='bx bx-play-circle'></i></a><span>WATCH VIDEO</span>
 
     </div>
-        
-        
 </div>
 
+    <div class=" sec-row">
+        <img src="h4-img-1.webp" alt="">
+        <p class="scroll">SCROLL DOWN  <i class='bx bx-right-arrow-alt'></i></p>
+
+        <img data-aos="fade-down" data-aos-duration="100" class="small" src="h4-il-2.webp" alt="">
+        <img data-aos="fade-left" data-aos-duration="300" class="big" src="h4-il-1.webp" alt="">
+      
+    </div>
+  
+</div>
+
+</header>
+<section class="container-section">
+    <div class="box-on">
+    <div class="box-two">
+      <h1 class="h-title" ><span class="value" data-value="500">0</span>K</h1>
+      <p class="details">Clients Satisfactions</p>
+      </div>
+    </div>
+
+    <div class="marqee">
+        <marquee  behavior="" direction="left" scrollamount="5">
+          <img class="marqurr-img" src="bl-4-logo-1.webp" alt="">
+          <img class="marqurr-img" src="bl-4-logo-2.webp" alt="">
+          <img class="marqurr-img" src="bl-4-logo-3.webp" alt="">
+          <img class="marqurr-img" src="bl-4-logo-5.webp" alt="">
+          <img style="margin-top: 30px;" class="marqurr-img" src="bl-4-logo-6.webp" alt="">
+        </marquee>
+    </div>
 
 </section>
 
 
-<section class="hero-section" >
-    <p class="second-line"><i class='bx bxl-flutter'></i> How it works</p>
-    <h1 class="secnd-heading">Our web design process</h1>
-    <p class="description">With years of experience in web design and development, we have perfected our process to deliver exceptional websites.</p>
-   </section>
-
-   <section id="tranding">
-  <div class="containerr swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="card-wrapper">
-          <ul class="card-list swiper-wrapper">
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/1-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/2-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/3-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/4-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-
-
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/5-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-
-
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/5-1.jpg" alt="v" class="card-image">
-               
-              </a>
-            </li>
-
-
-
-            <li class="card-item swiper-slide ">
-              <a href="" class="card-link">
-                <img src="img/6-1.jpg" alt="v" class="card-image">
-                   </a>
-            </li>
-
-
-            <li class="card-item swiper-slide ">
-                <a href="" class="card-link">
-                  <img src="img/7-1.jpg" alt="v" class="card-image">
-                     </a>
-              </li>
-
-
-
-              <li class="card-item swiper-slide ">
-                <a href="" class="card-link">
-                  <img src="img/8-1.jpg" alt="v" class="card-image">
-                     </a>
-              </li>
-
-              <li class="card-item swiper-slide ">
-                <a href="" class="card-link">
-                  <img src="img/9-1.jpg" alt="v" class="card-image">
-                     </a>
-              </li>
-
-              <li class="card-item swiper-slide ">
-                <a href="" class="card-link">
-                  <img src="img/10-1.jpg" alt="v" class="card-image">
-                     </a>
-              </li>
-          </ul>
-          <div class="swiper-pagination"></div>
-          <!-- <div class="swiper-slider-button swiper-button-next"></div>
-          <div class="swiper-slider-button swiper-button-prev"></div> -->
+<div class="text-container-about">
+    <span class="text">ABOUT US  OUR COMPANY</span>
+  </div>
+      
+      <section class="about-container">
+        <div class="column-one">
+          <h1>We Want to Give You <br> The Best Service</h1>
         </div>
+        <div class="column-two">
+          <p>We are 100+ professional software engineers with more than 10 years of experience in delivering superior products Believe it because you've seen it. Here are real numbers</p>
+        </div>
+     
+      </section>
+
+<section class="comlumn-container">
+    <div class="column-container">
+      <img src="a4-img-1.webp" alt="">  
+        </div>  
+
+ <div class="column-container-two">
+    <div class="comm">
+  <div class="icons"><i class='bx bxs-doughnut-chart'></i></div>
+  <div class="icon-text"><h3>Guraranteed Results</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nesciunt natus, totam est cumque laborum corporis unde dolore, nobis eum nisi numquam aspernatur?</p>
+    </div>
+</div> 
+<hr>
+<div class="comm">
+    <div class="icons"><i class='bx bx-signal-5'></i></div>
+    <div class="icon-text"><h3>Guraranteed Results</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nesciunt natus, totam est cumque laborum corporis unde dolore, nobis eum nisi numquam aspernatur?</p> 
       </div>
+  </div> 
+<hr>
+
+  <div class="comm">
+    <div class="icons"><i class='bx bx-shekel'></i>></div>
+    <div class="icon-text"><h3>Guraranteed Results</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, nesciunt natus, totam est cumque laborum corporis unde dolore, nobis eum nisi numquam aspernatur?</p>
+      </div>
+  </div>
+  <div class="abt-btn">
+  <button class="nav-btn">DISCOVER  MORE  <i class='bx bx-right-arrow-alt'></i></button>
+  <span><i class='bx bxs-phone-call'></i></span> <span class="call">Call Us Now <br> <b> +91 5587-b684378</b></span>
+  </div>
+</div>
+
+
   
 </section>
 
 
+<section class="row-container">
+    <div class="text-container-service">
+        <span class="text">OUR BEST SERVICES</span>
+      </div>
+      <h1 class="ser-heading">We Provide Best Services</h1>
+</section>
 
 
-<!-- crouser section -->
+<section class="card-section">
 
-<section class="crousel">
-<p class="para-discription"><i class='bx bxl-flutter'></i> We are not like another company</p>
-<h1 class="crousel-head">What Makes Us Unique</h1>
-
-<div id="crousel">
-    <div class="card-container">
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>Unlimited Revisions</h3>
-                <p>We ensure that you are happy with every result by offering limitless edits.</p>
-            </div>
+  <div class="container">
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
         </div>
-
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>No Hidden Fees</h3>
-                <p>Our proposal and contract provide a clear, complete cost summary with no unstated costs.</p>
-            </div>
-        </div>
-
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>A Personal Process</h3>
-                <p>As a small business that values human relationships, we always offer an easy, friendly service.</p>
-            </div>
-        </div>
-
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>Efficient Project Management</h3>
-                <p>We use SCRUM to finish tasks on plan, offer high-quality work, and keep you updated at every stage.</p>
-            </div>
-        </div>
-
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>CRM Consulting</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary.</p>
-            </div>
-        </div>
-
-        <div class="card-crousel">
-            <div class="icon"><i class='bx bxs-devices'></i></div>
-            <div class="text">
-                <h3>Proven Track Record</h3>
-                <p>You may be sure you are in safe hands because of their excellent record and 5/5 rating on Clutch.</p>
-            </div>
-        </div>
+        <h3 class="card-title">Web Development</h3>
+        <p class="card-description">
+          Your website is the digital face of your business. With our expert website development services, we ensure that your platform is equipped with a modern design, intuitive UI/UX, and seamless functionality.
+        </p>
+      </div>
     </div>
 
-</div>
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
+        </div>
+        <h3 class="card-title">SEO (Search Engine Optimization)</h3>
+        <p class="card-description">
+          Get found by your audience! Our SEO strategies focus on improving your website's visibility on search engines and driving organic traffic that converts.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
+        </div>
+        <h3 class="card-title">Social Media Ads</h3>
+        <p class="card-description">
+          Amplify your brand's voice with strategic social media advertising. We create engaging campaigns that connect you with your audience and boost your online presence.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
+        </div>
+        <h3 class="card-title">Graphic Designing</h3>
+        <p class="card-description">
+          Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
+        </div>
+        <h3 class="card-title">Graphic Designing</h3>
+        <p class="card-description">
+          Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card">
+      <div class="card-content">
+        <div class="card-icon">
+          <div class="card-icon-two">
+            <i class='bx bxs-color'></i>
+          </div>
+        </div>
+        <h3 class="card-title">Graphic Designing</h3>
+        <p class="card-description">
+          Stand out with creative graphic design services tailored to your brand's personality. Let us help you make a lasting impression.
+        </p>
+      </div>
+    </div>
+  </div>
 
 </section>
 
 
-<section class="inner-crousel">
-    <p class="para-discription-two"><i class='bx bxl-flutter'></i> We are not like another company</p>
-    <h1 class="crousel-head-two">Recent Web Design Clients</h1>
-</section>
-<section class="swipers">
-    <div class="slider">
-        <div class="slides">
-          <div class="slide">
-            <div class="text">
-                <i class='bx bx-home-alt-2'></i>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                    ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                  </p>
-                  <h3>a to Z Kitchan Equipment</h3>
-                  <span>Web Design</span>
-            </div>
-            <img src="img/op.jpg" alt="Slide 1">
-          </div>
-
-
-
-          <div class="slide">
-            <div class="text">
-                <i class='bx bx-home-alt-2'></i>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                    ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                  </p>
-                  <h3>a to Z Kitchan Equipment</h3>
-                  <span>Web Design</span>
-            </div>
-            <img src="img/op-1.jpg" alt="Slide 1">
-          </div>
 
 
 
 
-          <div class="slide">
-            <div class="text">
-                <i class='bx bx-home-alt-2'></i>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                    ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                  </p>
-                  <h3>a to Z Kitchan Equipment</h3>
-                  <span>Web Design</span>
-            </div>
-            <img src="img/op-2.jpg" alt="Slide 1">
-          </div>
-
-          <div class="slide">
-            <div class="text">
-                <i class='bx bx-home-alt-2'></i>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-                ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, accusamus recusandae totam exercitationem iure tenetur sit possimus rem, repellendus expedita quae aliquam. Ab atque nemo at mollitia quas tenetur illum?
-              </p>
-              <h3>a to Z Kitchan Equipment</h3>
-              <span>Web Design</span>
-            </div>
 
 
-            <img src="img/op-4.jpg" alt="Slide 1">
-          </div>
 
 
+
+
+
+<!-- next section -->
+
+<section class="story-section">
+  <div class="elementor-column ">
+    <div class="elementor-widget-wrap ">
+          <div class="elementor-element">
+      <div class="elementor-widget-container">
+    <h2 class="elementor-heading-title">Behind The <br> Story of Digital <br> Marketing <br>
+Agency</h2>
+
+	</div>
+<button class="str-btn">
+  Contact US <i class='bx bx-right-arrow-circle'></i>
+</button>     </div>
+
+<div id="horzontal-line"></div>
+<div id="vartikal"></div>
+
+
+      <div class="elementor-widget ">
+       <div class="a">
+        <i class='bx bx-sidebar'></i>
+        <h3>120+</h3>
+        <p>projects done</p>
+       </div>
+
+       <div class="b">
+        <i class='bx bx-sidebar'></i>
+        <h3>120+</h3>
+        <p>projects done</p>
         </div>
-
-
-        <div class="controls">
-          <button class="control" id="prev">&#10094;</button>
-          <button class="control" id="next">&#10095;</button>
-        </div>
-
+       <div class="c">
+        <i class='bx bx-sidebar'></i>
+        <h3>120+</h3>
+        <p>projects done</p>
+      </div>
+      <div class="d"><i class='bx bx-sidebar'></i>
+        <h3>120+</h3>
+        <p>projects done</p></div>
 
 
       </div>
-    
+
+        </div>
+  </div>
 
 </section>
 
+
+
+<section class="companey">
+  <div class="text-container-companey">
+    <span class="text">COMPANY BENEFITS</span>
+
+
+    <div class="comaney-row">
+      <div class="companey-column">
+        <h1>Why You Should Choose Agency Services</h1>
+        <p>We are 100+ professional software engineers with more than 10 years of experience in delivering superior products Believe it because you’ve seen it. Here are real numbers</p>
+       
+        <span class="first-span"><i class='bx bxs-check-circle' ></i>First Working Process</span>
+        
+        <span class="span-first"><i class='bx bxs-check-circle' ></i>First Working Process</span>
+        <br>
+        <span class="first-span"><i class='bx bxs-check-circle' ></i>First Working Process</span>
+        
+        <span class="span-first"><i class='bx bxs-check-circle' ></i>First Working Process</span>
+    
+        <div class="horijontal"></div>
+
+        <button class="com-btn">
+          Contact US <i class='bx bx-right-arrow-circle'></i>
+        </button>  
+
+
+      </div>
+
+      <div class="companey-column-two">
+        <img src="s4-il-img-1.png" alt="" class="logo-img">
+      </div>
+      
+        </div>
+  </div>
+
+
+</section>
+
+<section class="benefits">
+  <div class="text-container-benrfits">
+    <span class="text">COMPANY BENEFITS</span>
+  <h1>What Our Clients Say About Us</h1>
+
+  <div class="benefits-column-one">
+
+ <div class="benefits-column-two">
+  <div class="coll once">
+    <div class="coll-one  ">
+      <img src="s4-img-1.png" alt=""></div>
+    <div class="coll-two">
+      <h1>Voucher</h1>
+    </div>
+
+  </div>
+
+
+
+  <div class="coll">
+    <div class="coll-one tellus">
+      <img src="s4-img-1.png" alt=""></div>
+    <div class="coll-two">
+      <h1>Voucher</h1>
+    </div>
+
+  </div>
+
+
+  <div class="coll tellus">
+    <div class="coll-one">
+      <img src="s4-img-1.png" alt=""></div>
+    <div class="coll-two">
+      <h1>Voucher</h1>
+    </div>
+
+  </div>
+
+ </div>
+
+
+
+ <div class="benefits-column-left">
+
+  <div class="coll-left tellus">
+    <div class="coll-one-left">
+      <img src="s4-img-1.png" alt=""></div>
+    <div class="coll-two-left">
+     <p>Far far away, behind the mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove, right at the coast. Far far countries Vokalia and Consonantia, parated they live in Bookmarksgrove right at the coast <span>coast</span></p>
+    </div>
+
+  </div>
+ </div>
+
+
+
+
+ </div>
+</div> 
+ 
+
+
+</section>
+
+
+<section class="last-section">
+  <span>OUR BLOG</span>
+  <br>
+  <h1>Latest Blog with
+    Carousel Style</h1>
+</section>
 
 
 
 <footer class="footer">
-    <div class="footer-one">
-      <img src="img/logo-300x118.png" alt="" >
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-    </div>
-  
-  
-    <div class="footer-two">
-  <div class="footer-one-col">
-  
-    <h1>COMPANIES</h1>
-  
-    <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
+  <div class="footer-one">
+    <img src="logo-300x118.png" alt="" >
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
   </div>
+
+
+  <div class="footer-two">
+<div class="footer-one-col">
+
+  <h1>COMPANIES</h1>
+
+  <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
+</div>
+
+
+
+<div class="footer-one-col">
+
+  <h1>COMPANIES</h1>
+
+  <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
+</div>
+
+
+
+<div class="footer-one-col">
+
+  <h1>COMPANIES</h1>
+
+  <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
+  <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
+</div>
+
+
+
+
+<div class="footer-one-col">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56011.57527947493!2d77.0643502!3d28.667997949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1737957426259!5m2!1sen!2sin" width="300" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   
-  
-  
-  <div class="footer-one-col">
-  
-    <h1>COMPANIES</h1>
-  
-    <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
+</div>
+
   </div>
-  
-  
-  
-  <div class="footer-one-col">
-  
-    <h1>COMPANIES</h1>
-  
-    <h6><i class='bx bx-right-arrow-alt'></i>  Home</h6>            <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  About Us</h6>        <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Our Services</h6>    <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  News & Blod</h6>     <hr style="background-color: white;">
-    <h6><i class='bx bx-right-arrow-alt'></i>  Contact Us</h6>      <hr style="background-color: white;">
-  </div>
-  
-  
-  
-  
-  <div class="footer-one-col">
-  
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d56011.57527947493!2d77.0643502!3d28.667997949999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1737957426259!5m2!1sen!2sin" width="300" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
-  </div>
-  
-    </div>
-  
-  </footer>
-  
+
+</footer>
 
 
 
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    
-
-
-    const swiper = new Swiper('.card-wrapper', {
-    loop: true,
-    spaceBetween: 30,
-
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-      dynamicBullets: true
-    },
-
-    // Navigation arrows
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    // },
-
-    breakpoints: {
-      0: {
-        slidesPerView: 1
-      },
-
-      768: {
-        slidesPerView: 2
-      },
-
-      1024: {
-        slidesPerView: 3
-      },
-    }
-  });
 
 
 
-  var swiperone = new Swiper('.swiper-container', {
-    loop: true,
-    autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-    },
-    speed: 800, // Smooth transition
+
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script src="script.js"></script>
+ <script>
+    window.addEventListener('load', ()=>{
+    AOS.init({
+        duration:1000,
+        easing:'ease-in-out',
+        once:true,
+        mirror:false
+    });
 });
+ </script>
 
-
-var swiperone = new Swiper('.swiper-container', {
-            loop: true,
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
-            },
-            speed: 800, // Smooth transition
-        });
-  
-</script>
 </body>
 </html>
